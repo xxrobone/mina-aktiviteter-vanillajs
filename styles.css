@@ -1,0 +1,40 @@
+body {
+  width: 100svw;
+  height: 100%;
+  background-color: black;
+  color: white;
+}
+
+.cwEvents {
+  position: relative;
+  height: fit-content;
+  width: 60vw !important;
+  margin: 0 auto !important;
+}
+
+.headerRow .title span {
+  font-family: monospace;
+  font-size: clamp(1.5rem, 0.75rem + 4vw, 3rem);
+}
+
+td {
+  padding: 0 0.25rem;
+}
+
+td.title {
+  font-family: monospace;
+  font-size: clamp(1.5rem, 0.75rem + 2vw, 2rem);
+}
+
+.cwEvents tbody {
+  width: 100%;
+}
+
+.cwEvents tbody tr {
+  padding: 0.5rem 0;
+  max-width: 100%;
+}
+
+.dataRow th {
+  padding: 0 0.2rem;
+}
