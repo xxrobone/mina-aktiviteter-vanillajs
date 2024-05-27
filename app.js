@@ -34,3 +34,11 @@ document.addEventListener('DOMContentLoaded', () => {
       });
   });
   
+
+/* TODO */
+  /* 
+  Separate function so that it can accept an url
+  Make it possible to just fetch a certaing activity
+  Create Instructions
+  Create readme.md  
+  */
